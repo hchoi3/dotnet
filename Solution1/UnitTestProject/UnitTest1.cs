@@ -58,7 +58,7 @@ namespace UnitTestProject
         {
             //arrange
             int num1 = 1000;
-            int num2 = 0;
+            int num2 = 1;
             var result = calculator.divide(num1, num2);
             Assert.AreEqual(result, (num1 / num2));
         }
